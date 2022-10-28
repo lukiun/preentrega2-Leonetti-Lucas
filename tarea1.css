@@ -7,13 +7,18 @@
     background-size: cover;
     position: relative;
     box-shadow: -10px 5px 10px rgb(42, 117, 144);
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: ro;
+    border-radius: 20px;
+    border: 1px solid rgba(red,green,blue, alpha);
+    top: 0;
+    transition: top ease 0.5s;
+    font-weight: bold;
 }
-
-
-
+hover{
+    top: -50px;
+}
 .nav li{
     display: inline-block;
     margin: 40px;
@@ -119,6 +124,5 @@ width: 55%;
     height: 25%;
 width: 25%;
 }
-
-
+}
 
