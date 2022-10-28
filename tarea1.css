@@ -1,0 +1,124 @@
+.nav{
+
+    list-style: none;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f06cc054-c41e-4df8-94ce-af37f60459b8/de8xnvc-0318eaf9-0f85-409d-abec-b1412794b2c5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: -10px 5px 10px rgb(42, 117, 144);
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.nav li{
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(43, 183, 230);
+}
+
+body{
+    background-color: rgb(31, 171, 171);
+}
+#video1{
+    height: 600px;
+width: 80%;
+}
+#mush1{
+    height: 25%;
+width: 25%;
+}
+#mush2{
+    height: 25%;
+width: 25%;
+}
+#redo5{
+    height: 25%;
+width: 25%;
+}
+#tpn19{
+    height: 25%;
+width: 25%;
+}
+#drakengard1{
+width: 25%;
+}
+#one86{
+    height: 25%;
+width: 25%;
+}
+
+.xxx{
+    font-size: 1rem;
+    list-style: none;
+    text-align: center;
+    font-style: italic; 
+    width: 350px;
+    font-weight: bold;
+    background-position: center;
+    position: relative;
+    background-color: aqua;
+    box-shadow: -10px 5px 10px rgb(31, 171, 171);
+    margin: 0 auto; /*para poner en el medio un cuadro con texto y mas*/
+}
+
+
+#pepe{
+    background-image: url(./assets/gen\ im\ characters.webp);
+    height: 200px;
+    background-repeat: no-repeat
+    
+    };
+
+.uwu2{
+    margin: 40px;
+    padding: 20px;
+    text-align: right;
+
+}
+@media (max-width: 600px){
+    .nav{
+
+        list-style: none;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+}
+#video1{
+    height: 600px;
+width: 80%;
+}
+#mush1{
+    height: 25%;
+width: 65%;
+}
+#mush2{
+    height: 25%;
+width: 65%;
+}
+#redo5{
+    height: 25%;
+width: 65%;
+}
+#tpn19{
+    height: 25%;
+width: 55%;
+}
+#drakengard1{
+width: 55%;
+}
+#one86{
+    height: 25%;
+width: 25%;
+}
+
+
+
