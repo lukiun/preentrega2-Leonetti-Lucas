@@ -13,11 +13,11 @@
     border-radius: 20px;
     border: 1px solid rgba(red,green,blue, alpha);
     top: 0;
-    transition: top ease 0.5s;
+    transition: top ease 0.2s;
     font-weight: bold;
 }
-hover{
-    top: -50px;
+.nav:hover{
+    top: -15px;
 }
 .nav li{
     display: inline-block;
