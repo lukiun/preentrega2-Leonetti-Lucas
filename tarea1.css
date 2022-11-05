@@ -12,12 +12,12 @@
     flex-direction: row;
     border-radius: 20px;
     border: 1px solid rgba(red,green,blue, alpha);
-    top: 0;
+    top: -8px;
     transition: top ease 0.2s;
     font-weight: bold;
 }
 .nav:hover{
-    top: -20px;
+    top: -13px;
 }
 
 .matanga{
@@ -46,8 +46,11 @@ body{
     background-color: rgb(0, 0, 0);
 }
 #video1{
-    height: 600px;
-width: 80%;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+
 }
 #mush1{
     height: 25%;
@@ -140,8 +143,8 @@ width: 25%;
 
 }
 #video1{
-    height: 600px;
-width: 80%;
+    height: 450px;
+width: 100%;
 }
 #mush1{
     height: 25%;
@@ -167,6 +170,7 @@ width: 55%;
 width: 25%;
 }
 }
+
 @media (min-width: 601px){
 .nav{
 
@@ -179,5 +183,30 @@ width: 25%;
     height: 140px;
 
 }
+.carousel{  
+    
+    width: 60%;
+    position: relative;
 
 }
+.carousel-inner, .carousel-inner > .item, .carousel-inner > .item > img {
+    height: 50%
+    width: 50%;
+  }
+
+#nmush1{
+    width: 35%;
+    height: 35%;
+}
+#nmush2{
+    width: 35%;
+    width: 35%;
+}
+#nredo5{
+    width: 35%;
+    height: 35%;
+}
+#video1{
+    width: 70%;
+    height: 600px;
+}}
