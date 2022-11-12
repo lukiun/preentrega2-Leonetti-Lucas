@@ -1,7 +1,15 @@
+$color1 : rgb(38, 35, 35);
+$color2 : white;
+$dimenciones_mobile1 : 100%;
+$height_mobile2 : 25%;
+$width_mobile2 : 65%;
+
+
+
 .nav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style: none;
-    background-color: rgb(38, 35, 35);
+    background-color: $color1;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,11 +19,11 @@
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-    border: 1px solid rgba(red,green,blue, alpha);
+    border: 1px solid;
     top: -8px;
     transition: top ease 0.2s;
-    font-weight: bold;
-}
+    font-weight: bold; }
+
 .nav:hover{
     top: -13px;
 }
@@ -30,12 +38,12 @@
 
 }
 
-.h11{
+h1{
     color: rgb(187, 62, 62);
 }
 
 .white{
-    color: rgb(255, 255, 255);
+    color: $color2;
     text-shadow: -10px 5px 10px red;
     text-decoration: none;
 
@@ -53,27 +61,23 @@ body{
 
 }
 #mush1{
-    height: 25%;
-width: 25%;
+@extend .tpn19;
 }
 #mush2{
-    height: 25%;
-width: 25%;
+@extend .tpn19;
 }
 #redo5{
-    height: 25%;
-width: 25%;
+@extend .tpn19;
 }
-#tpn19{
+.tpn19{
     height: 25%;
 width: 25%;
 }
 #drakengard1{
-width: 25%;
+@extend .tpn19;
 }
 #one86{
-    height: 25%;
-width: 25%;
+@extend .tpn19;
 }
 
 .xxx{
@@ -85,14 +89,14 @@ width: 25%;
     font-weight: bold;
     background-position: center;
     position: relative;
-    background-color: rgb(42, 27, 27);
+    background-color: $color1;
     box-shadow: -10px 5px 10px rgb(10, 15, 15);
     margin: 0 auto; /*para poner en el medio un cuadro con texto y mas*/
 
 }
 
 .text{
-    color: aliceblue;
+    color: $color2;
 
 }
 
@@ -142,44 +146,53 @@ width: 25%;
         flex-direction: column;
 
 }
+.carousel{  
+    
+    width: 80%;
+    position: relative;
+
+}
+.carousel-inner, .carousel-inner > .item, .carousel-inner > .item >  {
+    height: 80%;
+    width: 80%;
+  }
+
+
 #nmush1{
-    width: 65%;
-    height: 65%;
+    width: $dimenciones_mobile1;
 }
 #nmush2{
-    width: 65%;
-    width: 65%;
+    width: $dimenciones_mobile1;
 }
 #nredo5{
-    width: 65%;
-    height: 65%;
+    width: $dimenciones_mobile1;
 }
 #video1{
     height: 450px;
 width: 100%;
 }
 #mush1{
-    height: 25%;
-width: 65%;
+    height: $height_mobile2;
+    width: $width_mobile2;
 }
 #mush2{
-    height: 25%;
-width: 65%;
+    height: $height_mobile2;
+    width: $width_mobile2;
 }
 #redo5{
-    height: 25%;
-width: 65%;
+    height: $height_mobile2;
+    width: $width_mobile2;
 }
 #tpn19{
-    height: 25%;
-width: 55%;
+    height: $height_mobile2;
+    width: $width_mobile2;
 }
 #drakengard1{
-width: 55%;
+    width: $width_mobile2;
 }
 #one86{
-    height: 25%;
-width: 25%;
+    height: $height_mobile2;
+    width: $width_mobile2;
 }
 }
 
@@ -197,28 +210,30 @@ width: 25%;
 }
 .carousel{  
     
-    width: 60%;
+    width: 30%;
     position: relative;
 
 }
-.carousel-inner, .carousel-inner > .item, .carousel-inner > .item > img {
-    height: 50%
+.carousel-inner, .carousel-inner > .item, .carousel-inner > .item >  {
+    height: 50%;
     width: 50%;
   }
 
+
 #nmush1{
-    width: 35%;
-    height: 35%;
+    width: 100%;
+    height: 100%;
 }
 #nmush2{
-    width: 35%;
-    width: 35%;
+    width: 100%;
+    height: 100%;
 }
 #nredo5{
-    width: 35%;
-    height: 35%;
+    width: 100%;
+    height: 100%;
 }
 #video1{
     width: 70%;
     height: 600px;
-}}
+}
+}
