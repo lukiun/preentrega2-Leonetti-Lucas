@@ -19,6 +19,11 @@
 .nav:hover {
   top: -13px; }
 
+.pag{
+  height: 20%;
+  width: 100%;
+  }
+
 .matanga {
   display: inline-block;
   margin: 20px;
@@ -35,8 +40,13 @@ h1 {
   text-shadow: -10px 5px 10px red;
   text-decoration: none; }
 
-body {
-  background-color: black; }
+body{
+  background-image: url(../assets/Sin\ título.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-size: 170px;
+
+}
 
 #video1 {
   display: flex;
@@ -44,7 +54,7 @@ body {
   text-align: center;
   align-items: center; }
 
-.tpn19, #mush1, #mush2, #redo5, #drakengard1, #one86 {
+.tpn19, #tpn, #tpn, #tpn, #drakengard1, #one86 {
   height: 25%;
   width: 25%; }
 
@@ -63,7 +73,12 @@ body {
   /*para poner en el medio un cuadro con texto y mas*/ }
 
 .text {
-  color: white; }
+  color: white; 
+}
+
+.foot{
+  color: white;
+}
 
 #pepe {
   background-color: rgba(20, 23, 23, 0.952);
@@ -101,11 +116,26 @@ body {
     justify-content: space-evenly;
     flex-direction: column; }
   .carousel {
-    width: 80%;
+    width: 60%;
     position: relative; }
   .carousel-inner, .carousel-inner > .item, .carousel-inner > .item > {
-    height: 80%;
-    width: 80%; }
+    height: 60%;
+    width: 60%; }
+    #carouselExampleControls{
+      position: relative;
+      left: 20%;
+    }
+    .img-in-mangas{
+      margin: 30px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      flex-direction: column; }
+
+  .pag{
+    width: 30px;
+  }
+
   #nmush1 {
     width: 100%; }
   #nmush2 {
@@ -115,23 +145,19 @@ body {
   #video1 {
     height: 450px;
     width: 100%; }
-  #mush1 {
-    height: 25%;
-    width: 65%; }
-  #mush2 {
-    height: 25%;
-    width: 65%; }
-  #redo5 {
-    height: 25%;
-    width: 65%; }
-  #tpn19 {
-    height: 25%;
-    width: 65%; }
-  #drakengard1 {
-    width: 65%; }
-  #one86 {
-    height: 25%;
-    width: 65%; } }
+  #tpn{
+    height: 52%;
+    width: 65%;
+  }
+  .tpn {
+    height: 52%;
+    width: 65%; } 
+  .drak{
+    width: 65%;
+    height: 52%;
+  }
+  }
+    
 
 @media (min-width: 601px) {
   .nav {
@@ -145,9 +171,27 @@ body {
   .carousel {
     width: 30%;
     position: relative; }
-  .carousel-inner, .carousel-inner > .item, .carousel-inner > .item > {
-    height: 50%;
-    width: 50%; }
+ 
+  #carouselExampleControls{
+    position: relative;
+    left: 34%;
+  }
+
+  .img-in-mangas{
+    margin: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+  }
+  .tpn{
+
+    width: 26%;
+    height: 100%;
+  }
+  .drak{
+    width: 3000px;
+    height: 530px;
+  }
   #nmush1 {
     width: 100%;
     height: 100%; }
@@ -158,5 +202,7 @@ body {
     width: 100%;
     height: 100%; }
   #video1 {
-    width: 70%;
-    height: 600px; } }
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 460px; } }
